@@ -97,8 +97,9 @@ class Hangman
       puts "Incorrect letters: #{@chosen_wrong_letters.join(', ')}" if @chosen_wrong_letters.length > 0
       puts "Avaliable letters: #{@avaliable_letters.join(' ')}"
       print "Choose one of the avaliable letters: "
-      player_choice = gets.chomp
-      p player_choice
+      player_choice = gets
+      player_choice = player_choice.chomp if player_choice != "\n"
+      p !@avaliable_letters.include?(player_choice)
     end
     @avaliable_letters.delete(player_choice)
     player_choice
