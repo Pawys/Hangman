@@ -3,7 +3,7 @@ This project is a simple command-line version of the classic word-guessing game,
 
 This project is based on the Hangman Assignment from [The Odin Project curriculum](https://www.theodinproject.com/).
 
-![Screenshot](screenshots/Hangman_Screenshot.png)
+![Screenshot](screenshots/Hangman_Screenshot1.png)
 
 # Skills
 ### After making it I learned:
